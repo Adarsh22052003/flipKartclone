@@ -36,15 +36,50 @@ nav ul li a{
     font-family: "Lato", sans-serif;;
 }
 nav ul li a:hover{
-    font-weight: 900;
+    font-weight: 200;
 }
 .search{
     display: flex;
     align-items: center;
     width: 599px;
 }
+.search input{
+    width: 499px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 20px 0 56px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: "Lato", sans-serif;
+}
 .container{
     min-height: calc(100vh - 12vh - 58px);
+}
+.slider{
+    display: flex;
+    align-items: center;
+}
+.slider img{
+    height: 300px;
+    width: 80vw;
+    margin: 12px auto;
+}
+.card{
+    /* background-color: red; */
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.card h2{
+    font-family: "Lato", sans-serif;
+}
+.card-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer{
